@@ -1,0 +1,101 @@
+html {
+	background: url("../img/BACKGROUND-01.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+h1{
+	font-family: "Open Sans";	/*this is a comment*/
+	font-size:	36px;
+	text-align: center;
+}
+h2{
+	font-size:	22px;
+}
+body {
+	margin-top: 170px;
+	margin-bottom: 100px;
+	margin-left: 50px;
+	font-family: "Open Sans";
+	font-color:#fff;
+}
+.intro-text {
+	margin-top: 0px;
+	width: 65%;
+	float: left;
+}
+
+.question-text {
+	width: 100%;
+	float: center;
+}
+
+.start {
+	margin-top: 0px;
+	margin-left: -20px;
+	width: 25%;
+	float: right;
+}
+
+.cup1 {
+	margin-left: -50px;
+	margin-top: -30px;
+	margin-right: 150px;
+	display: inline-block;
+}
+
+.cup2 {
+	margin-top: -30px;
+	display: inline-block;
+}
+
+.cups{
+	text-align: center;
+}
+
+/*.cup3{
+	width: 80%;
+
+}
+
+.Yes{
+	position: relative;
+	left: 72px;
+	top: 150px;
+}
+
+.No{
+	position: relative;
+	left: 78px;
+	top: 150px;
+}
+
+#container-1{
+	width: 250px;
+	height: 250px;
+	-webit-box-sizing:	border-box;
+	-moz-box-setting: border-box;
+	box-sizing: border-box;
+}
+
+
+#container-2{
+	
+	width: 250px;
+	height: 250px;
+	-webkit-box-sizing: border-box;
+	-moz-box-setting: border-box;
+	box-sizing: border-box;
+}
+.container{
+	display:inline-block;
+}
+@media (max-width: 650 px){
+	#container-1{
+		width: 100%;
+	}
+	#container-2{
+		background:#000;
+	}
+}
